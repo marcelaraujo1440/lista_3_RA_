@@ -5,4 +5,4 @@ for i in range(0,5):
     i+=1
 soma=sum(lista)
 media=(soma/i)
-print(f'A média de idade do dia de hoje foi de {media}')
+print(f'A média das idades foi de {media}')
