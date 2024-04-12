@@ -1,6 +1,7 @@
 lista= [2,4,7,2,3,3,1,0,2,6]
-numrep= max(lista, key= lista.count)
+numrep= lista.count(2)
 for i in range(0,1):
     
-    print(F"O numero que se repete mais vezes é o: {numrep}")
+    print(lista)
+    print(F"O numero 2 se repete: {numrep}")
     #precisa ajustar ainda
